@@ -10,7 +10,7 @@ This project was created to practice **HTML, CSS, JavaScript, and basic cyber se
 
 Access the project here:
 
-[Open Is it Safe](PASTE-YOUR-GITHUB-PAGES-LINK-HERE)
+https://mariathatgirl.github.io/is-it-safe/
 
 ---
 
