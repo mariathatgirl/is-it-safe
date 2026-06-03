@@ -35,3 +35,9 @@ Este projeto é educativo. Ele não invade sites, não coleta dados pessoais e n
 2. Cole um link no campo de análise.
 3. Clique em Analisar.
 4. Veja a pontuação e os alertas.
+
+## Status do projeto
+
+✅ Projeto publicado com GitHub Pages  
+✅ Primeira versão finalizada  
+✅ Próxima versão: histórico de links analisados e melhorias visuais
