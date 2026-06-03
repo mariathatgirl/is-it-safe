@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Is it Safe?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <div class="bg-pattern"></div>
+
+  <div class="floating-locks">
+    <div class="lock lock-1"></div>
+    <div class="lock lock-2"></div>
+    <div class="lock lock-3"></div>
+    <div class="lock lock-4"></div>
+    <div class="lock lock-5"></div>
+    <div class="lock lock-6"></div>
+  </div>
+  <main class="container">
+    <section class="hero">
+      <div class="badge">Cyber Security Project</div>
+      <h1>Is it Safe?</h1>
+      <p>
+        Cole um link e veja uma análise inicial de segurança com base em sinais comuns
+        de links suspeitos.
+      </p>
+    </section>
+
+    <section class="card">
+      <label for="urlInput">Digite ou cole um link:</label>
+
+      <div class="search-box">
+  <input id="urlInput" type="text" placeholder="Ex: https://exemplo.com" />
+  <button id="checkBtn">Analisar</button>
+  <button id="clearBtn" class="clear-btn">Limpar</button>
+</div>
+
+      <p class="hint">
+        Esta ferramenta faz uma análise educativa por regras simples.
+        Ela não substitui antivírus ou ferramentas profissionais.
+      </p>
+    </section>
+
+    <section id="result" class="result hidden">
+  <div class="result-header">
+    <div id="resultIcon" class="result-icon">🔎</div>
+
+    <div>
+      <h2 id="statusTitle"></h2>
+      <p id="scoreText"></p>
+    </div>
+  </div>
+
+  <div class="bar">
+    <div id="scoreBar"></div>
+  </div>
+
+  <div id="securityLevel" class="security-level"></div>
+
+  <h3>O que foi verificado:</h3>
+  <ul id="detailsList"></ul>
+</section>
+
+    <section class="tips">
+      <h2>5 regras de ouro</h2>
+
+      <div class="tips-grid">
+        <article>Não clique em links estranhos.</article>
+        <article>Confira o domínio com atenção.</article>
+        <article>Prefira sites com HTTPS.</article>
+        <article>Desconfie de promessas exageradas.</article>
+        <article>Peça ajuda antes de baixar arquivos.</article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Projeto educativo criado para aprender Cyber Security com ética e segurança.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
